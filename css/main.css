@@ -1,0 +1,129 @@
+body {
+  background-color: #009688;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+#transp {
+  display: block;
+  margin-top: 30%;
+  width: 96px;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+#transp img {
+  width: 100%;
+}
+#titulo {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+#titulo h2 {
+  margin-top: -1em;
+  font-size: 14px;
+}
+#txt_descripcion {
+  margin-top: 20%;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 15px;
+}
+#btn_empezar {
+  margin-top: 50px;
+  margin-left: 35%;
+}
+#btn_empezar a {
+  padding: 10px 15px 10px 15px;
+  color: #009688;
+  background-color: #fff;
+  border-radius: 3px;
+}
+#btn_empezar a:hover {
+  color: #fff;
+  background-color: #009688;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  transition: border-radius 0.3s;
+  -webkit-transtion: border-radius 0.3s;
+}
+#info {
+  background-color: #fff;
+}
+#titulo_info {
+  width: 100%;
+  background-color: #009688;
+}
+#titulo_info h1 {
+  padding: 10px 0 10px 0;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+}
+#img_info {
+  margin-left: 10%;
+}
+#descrip_info {
+  color: #009688;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+#descrip_info h1 {
+  font-size: 17px;
+}
+#descrip_info p {
+  font-size: 15px;
+}
+@media screen and (min-width: 360px) {
+  #descrip_info {
+    padding-bottom: 25%;
+  }
+}
+@media screen and (min-width: 480px) {
+  #transp {
+    margin-top: 10%;
+    margin-left: 41%;
+  }
+  #btn_empezar {
+    margin-left: 40%;
+  }
+  #titulo_info {
+    padding: 1px 0 1px 0;
+  }
+  #descrip_info {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  #img_info {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #transp {
+    width: 96px;
+    margin-right: 45%;
+    margin-left: 45%;
+  }
+  #titulo {
+    margin-left: 21%;
+  }
+  #btn_empezar {
+    margin-left: 42%;
+  }
+  #btn_empezar a {
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+  }
+  #titulo_info h1 {
+    padding: 30px 0 30px 0;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 25px;
+  }
+}
