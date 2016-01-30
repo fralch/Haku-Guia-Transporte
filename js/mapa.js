@@ -1,20 +1,3 @@
-var lon;
-var lati;
-
-function loadlocation () {
-  navigator.geolocation.getCurrentPosition(viewMap, viewError);
-}
-
-function viewMap (position) {
-
-  var lati = position.coords.latitude;
-  var lon = position.coords.longitude;
-
-  alert(lon);
-}
-
-//--------------------------
-
 function initMap() {
   var origen = {lat: -12.0684149, lng: -75.2199987};
   var destino = {lat: -12.0650444, lng: -75.2131115};
@@ -45,4 +28,3 @@ function initMap() {
     }
   });
 }
-
