@@ -5,7 +5,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: origen,
     scrollwheel: false,
-    zoom: 5
+    zoom: 16
   });
 
   var directionsDisplay = new google.maps.DirectionsRenderer({
